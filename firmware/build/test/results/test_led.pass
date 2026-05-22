@@ -1,0 +1,31 @@
+---
+:source:
+  :file: test/test_led.c
+  :dirname: test
+  :basename: test_led.c
+:successes:
+- :test: test_LED_Should_Be_Off_After_Init
+  :line: 12
+  :message: ''
+  :unity_test_time: 0
+- :test: test_LED_Should_Turn_On
+  :line: 19
+  :message: ''
+  :unity_test_time: 0
+- :test: test_LED_Should_Turn_Off
+  :line: 26
+  :message: ''
+  :unity_test_time: 0
+- :test: test_LED_Should_Toggle
+  :line: 34
+  :message: ''
+  :unity_test_time: 0
+:failures: []
+:ignores: []
+:counts:
+  :total: 4
+  :passed: 4
+  :failed: 0
+  :ignored: 0
+:stdout: []
+:time: 0.2338364000315778
